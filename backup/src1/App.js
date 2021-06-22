@@ -4,7 +4,6 @@ import { Component } from 'react';
 import Menu from './components/MenuComponent';
 import './App.css';
 import { DISHES } from './shared/dishes';
-import File from './components/File';
 
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
       dishes: DISHES
     };
   }
-
 
   render() {
     return (
